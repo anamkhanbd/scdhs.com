@@ -1,0 +1,208 @@
+.dropdown-toggle.active-dropdown::after {
+    transform: rotate(-90deg);
+}
+
+
+/*=-====Bootstrapthemes.co btco-hover-menu=====*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    border-right: 1px solid #e5e5e5;
+    padding: 12px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #fff;
+}
+
+.btco-hover-menu a,
+.navbar>li>a {
+    padding: 10px;
+    color: #000;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btco-hover-menu .active a,
+.btco-hover-menu .active a:focus,
+.btco-hover-menu .active a:hover,
+.btco-hover-menu li a:hover,
+.btco-hover-menu li a:focus,
+.navbar>.show>a,
+.navbar>.show>a:focus,
+.navbar>.show>a:hover {
+    color: #000;
+    background: transparent;
+    outline: 0;
+    font-weight: bold;
+}
+
+
+/*submenu style start from here*/
+
+.dropdown-menu {
+    padding: 0px;
+    margin: 0 0 0;
+    border: 0px solid transition !important;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    color: #000;
+    border-top: 5px solid #098346;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #000;
+}
+
+.dmenu li {
+    display: block;
+    margin-top: 5px;
+    color: #414141;
+}
+
+.dmenu li:hover {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.dmenu li a {
+    color: #414141;
+}
+
+.dmenu li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/*first level*/
+
+.btco-hover-menu .collapse ul>li:hover>a {
+    background: #098346;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btco-hover-menu .collapse ul ul>li:hover>a,
+.navbar .show .dropdown-menu>li>a:focus,
+.navbar .show .dropdown-menu>li>a:hover {
+    background: #098346;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/*second level*/
+
+.btco-hover-menu .collapse ul ul ul>li:hover>a {
+    background: #098346;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btco-hover-menu .collapse ul>li:focus>a {
+    background: #098346;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btco-hover-menu .collapse ul ul>li:focus>a,
+.navbar .show .dropdown-menu>li>a:focus,
+.navbar .show .dropdown-menu>li>a:hover {
+    background: #098346;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/*second level*/
+
+.btco-hover-menu .collapse ul ul ul>li:focus>a {
+    background: #098346;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/*third level*/
+
+.btco-hover-menu .collapse ul ul,
+.btco-hover-menu .collapse ul ul.dropdown-menu {
+    background: #f4f4f4;
+}
+
+.btco-hover-menu .collapse ul ul ul,
+.btco-hover-menu .collapse ul ul ul.dropdown-menu {
+    background: #f4f4f4;
+}
+
+.btco-hover-menu .collapse ul ul ul ul,
+.btco-hover-menu .collapse ul ul ul ul.dropdown-menu {
+    background: #f4f4f4;
+}
+
+
+/*Drop-down menu work on hover*/
+
+.btco-hover-menu {
+    background: none;
+    margin: 0;
+    padding: 0;
+    min-height: 20px
+}
+
+@media only screen and (max-width: 991px) {
+    .btco-hover-menu .show>.dropdown-toggle::after {
+        transform: rotate(-90deg);
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .btco-hover-menu .collapse ul li {
+        position: relative;
+    }
+    .btco-hover-menu .collapse ul li:hover>ul {
+        display: block
+    }
+    .btco-hover-menu .collapse ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 250px;
+        display: none
+    }
+    /*******/
+    .btco-hover-menu .collapse ul ul li {
+        position: relative
+    }
+    .btco-hover-menu .collapse ul ul li:hover>ul {
+        display: block
+    }
+    .btco-hover-menu .collapse ul ul ul {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        min-width: 250px;
+        display: none
+    }
+    /*******/
+    .btco-hover-menu .collapse ul ul ul li {
+        position: relative
+    }
+    .btco-hover-menu .collapse ul ul ul li:hover ul {
+        display: block
+    }
+    .btco-hover-menu .collapse ul ul ul ul {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        min-width: 250px;
+        display: none;
+        z-index: 1
+    }
+}
