@@ -121,15 +121,35 @@ class PageController extends Controller
                                                         return view ('/webpages/Principle_list');
                                                     }          
 
+    public function donarList()
+                                                        {
+                                                            return view ('/webpages/Donars_list');
+                                                        }     
 
+    public function exDonars()
+                                                            {
+                                                                return view ('/webpages/Ex_member_list');
+                                                            }  
 
+    public function teacherspages()
+                                                                {
+                                                                    return view ('/webpages/Teacher_info');
+                                                                }  
 
+    public function staffInfo()
+                                                                    {
+                                                                        return view ('/webpages/Staff_info');
+                                                                    }  
 
+    public function classGender()
+                                                                        {
+                                                                            return view ('/webpages/class_gender_based_education');
+                                                                        }  
 
-
-
-
-
+    public function cateWise()
+                                                                            {
+                                                                                return view ('/webpages/cate_wise_approved_branch_info');
+                                                                            }  
 
 
 

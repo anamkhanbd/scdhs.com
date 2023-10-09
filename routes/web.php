@@ -41,8 +41,20 @@ Route::get('/webpages/message-from-head', [PageController::class, 'headMessage']
 Route::get('/webpages/Managing_comittee', [PageController::class, 'managingComittee']);
 Route::get('/webpages/Chairman_list', [PageController::class, 'chairmanList']);
 Route::get('/webpages/Principle_list', [PageController::class, 'principle']);
+Route::get('/webpages/Donars_list', [PageController::class, 'donarList']);
+Route::get('/webpages/Ex_member_list', [PageController::class, 'exDonars']);
 
 
+
+//nav Dropwon 03 manu Route:: 
+Route::get('/webpages/Teacher_info', [PageController::class, 'teacherspages']);
+Route::get('/webpages/Staff_info', [PageController::class, 'staffInfo']);
+
+
+
+//nav Dropwon 04 manu Route:: 
+Route::get('/webpages/class_gender_based_education', [PageController::class, 'classGender']);
+Route::get('/webpages/cate_wise_approved_branch_info', [PageController::class, 'cateWise']);
 
 
 

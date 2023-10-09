@@ -247,7 +247,7 @@
                                             তালিকা</a></li>
                                     <li><a href="{{url('/webpages/Donars_list')}}">দাতা সদস্যদের তালিকা</a>
                                     </li>
-                                    <li><a href="https://skillbasedit.com/demo/Ex_member_list">প্রাক্তন সদস্যদের
+                                    <li><a href="{{url('/webpages/Ex_member_list')}}">প্রাক্তন সদস্যদের
                                             তালিকা</a></li>
                                 </div>
                             </ul>
@@ -262,10 +262,10 @@
                             <ul class="dropdown-menu pb-3 bg-white" aria-labelledby="navbarDropdownMenuLink">
 
                                 <div class="col-md-12 col-12 dmenu mt-3">
-                                    <li><a href="https://skillbasedit.com/demo/Teacher_info">শিক্ষকবৃন্দের তথ্য</a>
+                                    <li><a href="{{url('/webpages/Teacher_info')}}">শিক্ষকবৃন্দের তথ্য</a>
                                     </li>
 
-                                    <li><a href="https://skillbasedit.com/demo/Staff_info">কর্মচারীদের তথ্য</a></li>
+                                    <li><a href="{{url('/webpages/Staff_info')}}">কর্মচারীদের তথ্য</a></li>
 
                                 </div>
                             </ul>
@@ -281,9 +281,9 @@
 
                                 <div class="col-md-12 col-12 dmenu mt-3">
 
-                                    <li><a href="class_gender_based_education">শ্রেণী ও লিংগ ভিত্তিক শিক্ষার্থী তথ্য
+                                    <li><a href="{{url('/webpages/class_gender_based_education')}}">শ্রেণী ও লিংগ ভিত্তিক শিক্ষার্থী তথ্য
                                         </a></li>
-                                    <li><a href="cate_wise_approved_branch_info">শ্রেণীভিত্তিক অনুমোদিত শাখার তথ্য </a>
+                                    <li><a href="{{url('/webpages/cate_wise_approved_branch_info')}}">শ্রেণীভিত্তিক অনুমোদিত শাখার তথ্য </a>
                                     </li>
                                     <li><a href="student_attendance">শিক্ষার্থী উপস্থিতি তথ্য </a></li>
                                     <li><a href="six_class_student_info">৬ষ্ঠ শ্রেণী শিক্ষার্থী তথ্য</a></li>
