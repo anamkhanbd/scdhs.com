@@ -8,10 +8,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <title>Al Helal Academy</title>
-    <link rel="shortcut icon" href="../images/abul-kasem-nur-jahan-school-logo.png" />
-    <script type="text/javascript" src="../js/jq.1.9.0.min.js"></script>
+    <link rel="shortcut icon" href="{{url('/images/abul-kasem-nur-jahan-school-logo.png')}}" />
+    <script type="text/javascript" src="{{url('/js/jq.1.9.0.min.js')}}"></script>
 
-    <link href="../css/bootstrap.mini.css" rel="stylesheet">
+    <link href="{{url('/css/bootstrap.mini.css')}}" rel="stylesheet">
 </head>
 <style>
     #main {
@@ -297,7 +297,7 @@ Al Helal Academy
                                 Select : Eight Boys ->Half Year Exam->2023->6->Summation value
 						</h3><br>2015-2016 SBIT, All rights reserved.</span></td>
                             <td width="181"><span style="font-size:14px; color:#8C8C8C"> 	Powered by</span></td>
-                            <td width="163"><img src="../images/alhelal-logo.png" class="img-rounded" style="height:50px; width:130px;" /></td>
+                            <td width="163"><img src="{{url('/images/alhelal-logo.png')}}" class="img-rounded" style="height:50px; width:130px;" /></td>
                         </tr>
 
                     </table>
@@ -312,7 +312,7 @@ Al Helal Academy
 
     </form>
 
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="{{url('/js/bootstrap.min.js')}}"></script>
 </body>
 
 </html>

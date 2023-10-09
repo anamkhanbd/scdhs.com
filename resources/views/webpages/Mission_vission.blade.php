@@ -1,17 +1,35 @@
 @extends('layout.main')
 @push('title')
-    <title>Teaching Permission</title>
+    <title>লক্ষ্য ও উদ্দেশ্য </title>
 @endpush
 @section('main.section')
     
-
-            <div class="container">
-                <div class="col-sm-12 col-12" id="mainpage">
-                <div class="row">
-            
-                <div class="col-sm-9 col-12">
-            
-            
+                <div class="container">
+                    <div class="col-sm-12 col-12" id="mainpage">
+                    <div class="row">
+                
+                    <div class="col-sm-9 col-12">
+                
+                
+                        <div class="col-sm-12 col-12 p-0"  data-aos="fade-in" data-aos-duration="2000" >
+                        <ul class="list-group p-0">
+                        <li class="list-group-item font-weight-bold bg-success text-light" id="about">লক্ষ্য ও উদ্দেশ্য</li>
+                        </ul>
+                        <li class="list-group-item">
+                        <div style="font-size: 14px; line-height: 25px; text-align: justify;">
+                                    <pre style="margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Roboto, sans-serif;"><span style="font-weight: 700;">মিশন:</span></pre><ol style="text-align: justify;"><li style="margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Roboto, sans-serif;"><span style="color: rgb(255, 0, 0);">জ্ঞান, দক্ষতা, যোগ্যতা ও নৈতিকতার উতকর্ষ সাধন, মেধা, মনন, ও সৃজনশীলতায় শ্রেষ্ঠত্ব অর্জন, দেশপ্রেম ও জবাবদিহিতায় উদ্দীপ্ত নেতৃত্ব বিনির্মাণ এবং মানবকল্যাণে একক ও সামাজিক অংশগ্রহণ নিশ্চিত করা ।</span></li><li style="margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Roboto, sans-serif;"><span style="color: rgb(255, 0, 0);">Hf</span></li></ol><table class="table table-bordered"><tbody><tr><td><pre><br></pre></td><td><br></td></tr><tr><td><br></td><td><br></td></tr></tbody></table><ol style="text-align: justify;"><li style="margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Roboto, sans-serif;"><span style="color: rgb(255, 0, 0);"><br></span></li></ol><h5 style="margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Roboto, sans-serif;"><span style="font-weight: 700;">ভিশন:</span></h5><pre style="margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Roboto, sans-serif;">কল্যাণময় সমাজ বিনির্মাণে সকল মা</pre><table class="table table-bordered"><tbody><tr><td><ol style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; color: rgb(33, 37, 41); font-family: &quot;Baloo Chettan 2&quot;, AdorshoLipi, cursive; font-size: 14px; text-align: justify;"><li style="padding: 0px; margin: 0px 0px 10px; color: rgb(51, 51, 51); font-family: Roboto, sans-serif;"><span style="padding: 0px; margin: 0px; color: rgb(255, 0, 0);">জ্ঞান, দক্ষতা, যোগ্যতা ও নৈতিকতার উতকর্ষ সাধন, মেধা, মনন, ও সৃজনশীলতায় শ্রেষ্ঠত্ব অর্জন, দেশপ্রেম ও জবাবদিহিতায় উদ্দীপ্ত নেতৃত্ব বিনির্মাণ এবং মানবকল্যাণে একক ও সামাজিক অংশগ্রহণ নিশ্চিত করা ।</span></li></ol></td></tr></tbody></table><pre style="margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Roboto, sans-serif;"><br></pre><table class="table table-bordered"><tbody><tr><td><br></td></tr></tbody></table><pre style="margin-bottom: 10px; color: rgb(51, 51, 51); font-family: Roboto, sans-serif;">নবিক মূল্যবোধে উজ্জীবিত কাঙ্খিত প্রজম্ম ও নেতৃত্ব তৈরী করা।</pre>
+                            
+                        </div>
+                
+                        </li>
+                
+                
+                
+                    </div>
+                    </div>
+                
+                
+                
                     <div class="col-sm-3 col-12">
                         <div class="col-sm-12 col-12 p-0">
                         <ul class="list-group">
@@ -128,5 +146,5 @@
                     <div class="col-12  d-lg-none d-xl-none d-md-none btn btn-success "  >
                             <a href="https://skillbasedit.com/demo/time_line"style="color:#fff; font-size:24px;" target="blank"> সুবর্ণ জয়ন্তী ও  বঙ্গবন্ধু কর্ণার   </a>
                     </div>
-   
+                
 @endsection

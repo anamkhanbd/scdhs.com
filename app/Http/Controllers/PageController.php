@@ -51,6 +51,75 @@ class PageController extends Controller
         return view ('/webpages/about_institute');
     }
 
+    public function missionVission()
+        {
+            return view ('/webpages/Mission_vission');
+        }
+
+    public function history()
+            {
+                return view ('/webpages/history');
+            }
+
+    public function citizenCharter()
+                {
+                    return view ('/webpages/Citizen_charter');
+                }
+
+    public function teacherPermission()
+                    {
+                        return view ('/webpages/teaching_permission');
+                    }
+
+    public function mpoInfo()
+                    {
+                        return view ('/webpages/mpo_info');
+                    }
+
+    public function Infrastructure()
+                        {
+                            return view ('/webpages/Infrastructure');
+                        }
+
+    public function yearlyPlan()
+                            {
+                                return view ('/webpages/Yearly_working_plan');
+                            }
+
+    public function headMaster()
+                                {
+                                    return view ('/webpages/head_intro');
+                                }
+
+    public function contactUS()
+                                    {
+                                        return view ('/webpages/Contact_us');
+                                    }
+
+    public function president()
+                                        {
+                                            return view ('/webpages/President_Message');
+                                        }
+
+    public function headMessage()
+                                            {
+                                                return view ('/webpages/message-from-head');
+                                            }
+
+    public function managingComittee()
+                                                {
+                                                    return view ('/webpages/Managing_comittee');
+                                                }
+                                
+    public function chairmanList()
+                                                    {
+                                                        return view ('/webpages/Chairman_list');
+                                                    }
+
+      public function principle()
+                                                    {
+                                                        return view ('/webpages/Principle_list');
+                                                    }          
 
 
 
@@ -59,7 +128,14 @@ class PageController extends Controller
 
 
 
-    
 
+
+
+
+
+
+
+
+                                                    
 
 }

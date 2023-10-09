@@ -179,27 +179,27 @@
 
 
                                             {{--starding here --}}
-                                            <li><a href="https://skillbasedit.com/demo/Mission_vission">লক্ষ্য এবং
+                                            <li><a href="{{url('/webpages/Mission_vission')}}">লক্ষ্য এবং
                                                     উদ্দেশ্য</a></li>
-                                            <li><a href="https://skillbasedit.com/demo/History">ইতিহাস</a></li>
-                                            <li><a href="https://skillbasedit.com/demo/Citizen_charter">সিটিজেন
+                                            <li><a href="{{url('/webpages/history')}}">ইতিহাস</a></li>
+                                            <li><a href="{{url('/webpages/Citizen_charter')}}">সিটিজেন
                                                     চার্টার</a></li>
-                                            <li><a href="https://skillbasedit.com/demo/teaching_permission">পাঠদানের
+                                            <li><a href="{{url('/webpages/teaching_permission')}}">পাঠদানের
                                                     অনুমতি ও স্বীকৃতি </a></li>
-                                            <li><a href="https://skillbasedit.com/demo/mpo_info">এমপিও/জাতীয়করণ তথ্য
+                                            <li><a href="{{url('/webpages/mpo_info')}}">এমপিও/জাতীয়করণ তথ্য
                                                 </a></li>
 
                                         </div>
 
                                         <div class="col-md-6">
 
-                                            <li><a href="https://skillbasedit.com/demo/Infrastructure">ভৌত অবকাঠামো</a>
+                                            <li><a href="{{url('/webpages/Infrastructure')}}">ভৌত অবকাঠামো</a>
                                             </li>
-                                            <li><a href="https://skillbasedit.com/demo/Yearly_working_plan">বার্ষিক
+                                            <li><a href="{{url('/webpages/Yearly_working_plan')}}">বার্ষিক
                                                     কর্ম পরিকল্পনা</a></li>
-                                            <li><a href="https://skillbasedit.com/demo/head_intro">প্রধান শিক্ষক
+                                            <li><a href="{{url('/webpages/head_intro')}}">প্রধান শিক্ষক
                                                     পরিচিতি</a></li>
-                                            <li><a href="https://skillbasedit.com/demo/Contact_us">যোগাযোগের ঠিকানা</a>
+                                            <li><a href="{{url('/webpages/Contact_us')}}">যোগাযোগের ঠিকানা</a>
                                             </li>
                                             <!--<li><a href="https://skillbasedit.com/demo/Teacher_info">শিক্ষকবৃন্দের তথ্য</a></li>-->
                                             <!--<li><a href="https://skillbasedit.com/demo/vice_principal_intro">সহকারি প্রধান শিক্ষক পরিচিতি</a></li>-->
@@ -232,20 +232,20 @@
                             <ul class="dropdown-menu pb-3 bg-white" aria-labelledby="navbarDropdownMenuLink">
 
                                 <div class="col-md-12 col-12 dmenu mt-3">
-                                    <li><a href="https://skillbasedit.com/demo/President_Message">সভাপতির বাণী</a></li>
-                                    <li><a href="https://skillbasedit.com/demo/message-from-head">প্রধান শিক্ষকের
+                                    <li><a href="{{url('/webpages/President_Message')}}">সভাপতির বাণী</a></li>
+                                    <li><a href="{{url('/webpages/message-from-head')}}">প্রধান শিক্ষকের
                                             বাণী</a></li>
                                     <!--<li><a href="https://skillbasedit.com/demo/vice-principal-message">সহকারি প্রধান শিক্ষকের বাণী</a></li>-->
 
                                     <!--<li><a href="https://skillbasedit.com/demo/Founder_Message">প্রতিষ্ঠাতার বাণী</a></li>-->
 
-                                    <li><a href="https://skillbasedit.com/demo/Managing_comittee">ব্যবস্থাপনা কমিটির
+                                    <li><a href="{{url('/webpages/Managing_comittee')}}">ব্যবস্থাপনা কমিটির
                                             তথ্য</a></li>
 
-                                    <li><a href="https://skillbasedit.com/demo/Chairman_list">সভাপতির তালিকা</a></li>
-                                    <li><a href="https://skillbasedit.com/demo/Principle_list">প্রধান শিক্ষকদের
+                                    <li><a href="{{url('/webpages/Chairman_list')}}">সভাপতির তালিকা</a></li>
+                                    <li><a href="{{url('/webpages/Principle_list')}}">প্রধান শিক্ষকদের
                                             তালিকা</a></li>
-                                    <li><a href="https://skillbasedit.com/demo/Donars_list">দাতা সদস্যদের তালিকা</a>
+                                    <li><a href="{{url('/webpages/Donars_list')}}">দাতা সদস্যদের তালিকা</a>
                                     </li>
                                     <li><a href="https://skillbasedit.com/demo/Ex_member_list">প্রাক্তন সদস্যদের
                                             তালিকা</a></li>

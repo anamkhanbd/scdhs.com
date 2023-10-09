@@ -8,7 +8,7 @@
 
 <head>
     <title>Al Helal Academy</title>
-    <link rel="shortcut icon" href="../images/abul-kasem-nur-jahan-school-logo.png" />
+    <link rel="shortcut icon" href="{{url('/images/abul-kasem-nur-jahan-school-logo.png')}}" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -78,7 +78,7 @@
         }
     </style>
     <center>
-        <h3> <a href="https://skillbasedit.com/demo/">Home</a></h4>
+        <h3> <a href="{{url('/')}}">Home</a></h4>
     </center>
 
     <div class="container">

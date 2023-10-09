@@ -1,17 +1,34 @@
 @extends('layout.main')
 @push('title')
-    <title>Teaching Permission</title>
+    <title>ইতিহাস জানুন </title>
 @endpush
 @section('main.section')
-    
-
-            <div class="container">
-                <div class="col-sm-12 col-12" id="mainpage">
-                <div class="row">
-            
-                <div class="col-sm-9 col-12">
-            
-            
+                <div class="container">
+                    <div class="col-sm-12 col-12" id="mainpage">
+                    <div class="row">
+                
+                    <div class="col-sm-9 col-12">
+                
+                
+                        <div class="col-sm-12 col-12 p-0"  data-aos="fade-in" data-aos-duration="2000" >
+                        <ul class="list-group p-0">
+                        <li class="list-group-item font-weight-bold bg-success text-light" id="about">ইতিহাস</li>
+                        </ul>
+                        <li class="list-group-item">
+                        <div style="font-size: 14px; line-height: 25px; text-align: justify;">
+                                    <br>
+                            
+                        </div>
+                
+                        </li>
+                
+                
+                
+                    </div>
+                    </div>
+                
+                
+                
                     <div class="col-sm-3 col-12">
                         <div class="col-sm-12 col-12 p-0">
                         <ul class="list-group">
@@ -128,5 +145,7 @@
                     <div class="col-12  d-lg-none d-xl-none d-md-none btn btn-success "  >
                             <a href="https://skillbasedit.com/demo/time_line"style="color:#fff; font-size:24px;" target="blank"> সুবর্ণ জয়ন্তী ও  বঙ্গবন্ধু কর্ণার   </a>
                     </div>
-   
+
+
+
 @endsection

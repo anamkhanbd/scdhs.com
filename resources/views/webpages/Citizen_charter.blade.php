@@ -1,17 +1,32 @@
 @extends('layout.main')
 @push('title')
-    <title>Teaching Permission</title>
+    <title>Citizen_charter</title>
 @endpush
 @section('main.section')
-    
-
-            <div class="container">
-                <div class="col-sm-12 col-12" id="mainpage">
-                <div class="row">
-            
-                <div class="col-sm-9 col-12">
-            
-            
+                <div class="container">
+                    <div class="col-sm-12 col-12" id="mainpage">
+                    <div class="row">
+                
+                    <div class="col-sm-9 col-12">
+                
+                
+                        <div class="col-sm-12 col-12 p-0"  data-aos="fade-in" data-aos-duration="2000" >
+                        <ul class="list-group p-0">
+                        <li class="list-group-item font-weight-bold bg-success text-light" id="about">সিটিজেন চার্টার</li>
+                        </ul>
+                        <li class="list-group-item">
+                        
+                        <img src="public/otherimage/080223_03_36_59.jpg" class="img-fluid">
+                
+                        </li>
+                
+                
+                
+                    </div>
+                    </div>
+                
+                
+                
                     <div class="col-sm-3 col-12">
                         <div class="col-sm-12 col-12 p-0">
                         <ul class="list-group">

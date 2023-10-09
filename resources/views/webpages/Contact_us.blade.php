@@ -1,39 +1,38 @@
 @extends('layout.main')
 @push('title')
-    <title>প্রতিষ্ঠান সম্পর্কে জানুন </title>
+    <title>Contact Page </title>
 @endpush
-
 @section('main.section')
-            <div class="container">
-                <div class="col-sm-12 col-12" id="mainpage">
-                    <div class="row">
+    
 
+                    <div class="container">
+                        <div class="col-sm-12 col-12" id="mainpage">
+                        <div class="row">
+                    
                         <div class="col-sm-9 col-12">
-
-
-                            <div class="col-sm-12 col-12 p-0" data-aos="fade-in" data-aos-duration="2000">
-                                <ul class="list-group p-0">
-                                    <li class="list-group-item font-weight-bold bg-success text-light" id="about">প্রতিষ্ঠান সম্পর্কে</li>
-                                </ul>
-                                <li class="list-group-item">
-                                    <div style="font-size: 14px; line-height: 25px; text-align: justify;">
-                                        <title>Page Title</title>
-
-
-
-                                        <p style="font-family: SolaimanLipi;">We are Very Much Intelligent School Commitee</p>
-
-                                    </div>
-
-                                </li>
-
-
-
-                            </div>
+                    
+                    
+                            <div class="col-sm-12 col-12 p-0"  data-aos="fade-in" data-aos-duration="2000" >
+                            <ul class="list-group p-0">
+                            <li class="list-group-item font-weight-bold bg-success text-light" id="about">যোগাযোগ করুন</li>
+                            </ul>
+                            <li class="list-group-item">
+                            <div style="font-size: 14px; line-height: 25px; text-align: justify;">
+                                        <p style="margin-bottom: 10px;">আমাদের সাথে যোগাযোগ করুন</p><div style="">আল-হেলাল একাডেমী সোনাগাজী<div style="">উপজেলা:&nbsp;সোনাগাজী।&nbsp;<br>জেলা:&nbsp;ফেনী।&nbsp;</div><div style="">মোবাইল:&nbsp;<span style="text-align: justify;">01728563480</span><br><br><span style="text-align: justify;">জি-মেইল: alhelalacademysonagazi@gmail.com</span><br></div></div>
+                                
+                            </div><br>
+                    
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7353.494810386533!2d91.386832!3d22.848833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3753451f0b8e519f%3A0x3a7c5be17f194cb4!2sAl%20Helal%20Academy%2C%20Sonagazi%20-%20Olamabazar%20-%20Chardarbeshpur%20-%20Companiganj%20Rd%2C%20Sonagazi%20Municipality!5e0!3m2!1sen!2sbd!4v1660564264838!5m2!1sen!2sbd&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    
+                            </li>
+                    
+                    
+                    
                         </div>
-
-
-
+                        </div>
+                    
+                    
+                    
                         <div class="col-sm-3 col-12">
                             <div class="col-sm-12 col-12 p-0">
                             <ul class="list-group">
@@ -150,9 +149,4 @@
                         <div class="col-12  d-lg-none d-xl-none d-md-none btn btn-success "  >
                                 <a href="https://skillbasedit.com/demo/time_line"style="color:#fff; font-size:24px;" target="blank"> সুবর্ণ জয়ন্তী ও  বঙ্গবন্ধু কর্ণার   </a>
                         </div>
-
-
-
-
-
 @endsection

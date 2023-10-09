@@ -1,6 +1,6 @@
 @extends('layout.main')
 
-@push('tittle')
+@push('title')
 <title>Download Fils</title>
 @endpush
 

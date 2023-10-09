@@ -8,8 +8,8 @@
 <head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-    <title>Login Panel</title>
+        <title>Login Panel</title>
+    
     <link rel="shortcut icon" href="../images/abul-kasem-nur-jahan-school-logo.png" />
 
     <meta charset="utf-8">
@@ -19,29 +19,29 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="{{url('/images/apple-touch-icon.png')}}">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="{{url('/css/normalize.css')}}">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="../css/bootstrap.mini.css">
+    <link rel="stylesheet" href="{{url('/css/bootstrap.mini.css')}}">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{{url('/css/bootstrap-theme.min.css')}}">
 
-    <link rel="stylesheet" href="../css/font-awesome.mini.css">
-    <link rel="stylesheet" href="../css/wol.carousel.css">
-    <link rel="stylesheet" href="../css/owl-theme.css">
-    <link rel="stylesheet" href="../css/lightbox.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/anmatecss.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <script src="../js/modernizr-2.8.3.min.js"></script>
+    <link rel="stylesheet" href="{{url('/css/font-awesome.mini.css')}}">
+    <link rel="stylesheet" href="{{url('/css/wol.carousel.css')}}">
+    <link rel="stylesheet" href="{{url('/css/owl-theme.css')}}">
+    <link rel="stylesheet" href="{{url('/css/lightbox.css')}}">
+    <link rel="stylesheet" href="{{url('/css/style.css')}}">
+    <link rel="stylesheet" href="{{url('/css/anmatecss.css')}}">
+    <link rel="stylesheet" href="{{url('/css/main.css')}}">
+    <script src="{{url('/js/modernizr-2.8.3.min.js')}}"></script>
 </head>
 
 <body>
     <center>
-        <h3> <a href="https://skillbasedit.com/demo/">Home</a></h4>
+        <h3> <a href="{{url('/')}}">Home</a></h4>
     </center>
 
     <!--[if lt IE 8]>
@@ -117,14 +117,14 @@
             window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
         </script>
         <!-- Latest compiled and minified JavaScript -->
-        <script src="../js/bootstrap.min.js"></script>
-        <script src="../js/jq.tiker.min.js"></script>
-        <script type="text/javascript" src="../js/jq.bootstrap.newsbox.min.js"></script>
-        <script type="text/javascript" src="../js/owl.carosusel.min.js"></script>
-        <script type="text/javascript" src="../js/lightbox.js"></script>
-        <script type="text/javascript" src="../js/mainn.js"></script>
-        <script src="../js/plugins.js"></script>
-        <script src="../js/main.js"></script>
+        <script src="{{url('/js/bootstrap.min.js')}}"></script>
+        <script src="{{url('/js/jq.tiker.min.js')}}"></script>
+        <script type="text/javascript" src="{{url('/js/jq.bootstrap.newsbox.min.js')}}"></script>
+        <script type="text/javascript" src="{{url('/js/owl.carosusel.min.js')}}"></script>
+        <script type="text/javascript" src="{{url('/js/lightbox.js')}}"></script>
+        <script type="text/javascript" src="{{url('/js/mainn.js')}}"></script>
+        <script src="{{url('/js/plugins.js')}}"></script>
+        <script src="{{url('/js/main.js')}}"></script>
 
 
 
