@@ -231,11 +231,106 @@ class PageController extends Controller
                                                                             }                                                              
 
 
+            public function scoutes()
+                                                                            {
+                                                                                return view ('webpages/Scouts');
+                                                                            }  
+
+            public function redcresent()
+                                                                            {
+                                                                                return view ('webpages/Red_Crescent');
+                                                                            }
+
+            public function tour()
+                                                                            {
+                                                                                return view ('webpages/Study_Tour');
+                                                                            }
+                public function stCafinent()
+                                                                            {
+                                                                                return view ('webpages/Student_Cafinet');
+                                                                            }
+                      
+                 public function debate()
+                                                                            {
+                                                                                return view ('webpages/Debate');
+                                                                            }                                                            
+
+                public function languageClub()
+                                                                            {
+                                                                                return view ('webpages/Language_Club');
+                                                                            } 
+
+                public function fair()
+                                                                            {
+                                                                                return view ('webpages/Science_Fair');
+                                                                            } 
+
+                public function prospects()
+                                                                            {
+                                                                                return view ('webpages/Prospects');
+                                                                            } 
+
+                public function admissionRules()
+                                                                            {
+                                                                                return view ('webpages/Admission_Rules');
+                                                                            }
+
+                public function admissionQ()
+                                                                            {
+                                                                                return view ('webpages/Admission_Question');
+                                                                            }
+
+                public function admissionResult()
+                                                                            {
+                                                                                return view ('webpages/Admission_Result');
+                                                                            }
+
+                public function examRules()
+                                                                            {
+                                                                                return view ('webpages/Exam_rules');
+                                                                            }
+
+                public function examRutines()
+                                                                            {
+                                                                                return view ('webpages/Exam_routine');
+                                                                            }
+
+                public function examSuggestion()
+                                                                            {
+                                                                                return view ('webpages/Suggestion');
+                                                                            }
+
+                public function examOnlineResults()
+                                                                            {
+                                                                                return view ('webpages/showResult');
+                                                                            }
+
+                public function gallary()
+                                                                            {
+                                                                                return view ('webpages/Photo_gallery');
+                                                                            }
+
+                public function Videogallary()
+                                                                            {
+                                                                                return view ('webpages/Video_gallery');
+                                                                            }
+
+                public function magazine()
+                                                                            {
+                                                                                return view ('webpages/Magazine');
+                                                                            }
 
 
 
+                                                                            // index pages some one side link 
+               public function indexNotices()
+                                                                            {
+                                                                                return view ('webpages/Notices');
+                                                                            } 
 
 
+
+                                                                            
                                                                             
 
 }

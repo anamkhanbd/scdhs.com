@@ -76,12 +76,39 @@ Route::get('webpages/Online_Classroutine', [PageController::class, 'onlineClassR
 //nav Dropwon 06 manu Route:: 
 Route::get('webpages/Sports', [PageController::class, 'sports']);
 Route::get('webpages/Cultural_Activities', [PageController::class, 'culturalAvtivitis']);
+Route::get('webpages/Scouts', [PageController::class, 'scoutes']);
+Route::get('webpages/Red_Crescent', [PageController::class, 'redcresent']);
+Route::get('webpages/Study_Tour', [PageController::class, 'tour']);
+Route::get('webpages/Student_Cafinet', [PageController::class, 'stCafinent']);
+Route::get('webpages/Debate', [PageController::class, 'debate']);
+Route::get('webpages/Language_Club', [PageController::class, 'languageClub']);
+Route::get('webpages/Science_Fair', [PageController::class, 'fair']);
+
+
+//nav Dropwon 07 manu Route:: 
+Route::get('webpages/Prospects', [PageController::class, 'prospects']);
+Route::get('webpages/Admission_Rules', [PageController::class, 'admissionRules']);
+Route::get('webpages/Admission_Question', [PageController::class, 'admissionQ']);
+Route::get('webpages/Admission_Result', [PageController::class, 'admissionResult']);
+
+
+//nav Dropwon 08 manu Route:: 
+Route::get('webpages/Exam_rules', [PageController::class, 'examRules']);
+Route::get('webpages/Exam_routine', [PageController::class, 'examRutines']);
+Route::get('webpages/Suggestion', [PageController::class, 'examSuggestion']);
+Route::get('webpages/showResult', [PageController::class, 'examOnlineResults']);
+
+
+//nav Dropwon 09 manu Route:: 
+Route::get('webpages/Photo_gallery', [PageController::class, 'gallary']);
+Route::get('webpages/Video_gallery', [PageController::class, 'Videogallary']);
+Route::get('webpages/Magazine', [PageController::class, 'magazine']);
 
 
 
 
-
-
+//Index pages manu Route:: 
+Route::get('webpages/Notices', [PageController::class, 'indexNotices']);
 
 
 

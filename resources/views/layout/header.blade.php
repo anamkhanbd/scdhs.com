@@ -347,21 +347,21 @@
                                             </li>
                                             <li><a href="{{url('webpages/Cultural_Activities')}}">সাংস্কৃতিক
                                                     কার্যক্রম</a></li>
-                                            <li><a href="https://skillbasedit.com/demo/Scouts">স্কাউটস</a></li>
+                                            <li><a href="{{url('webpages/Scouts')}}">স্কাউটস</a></li>
                                             <!--<li><a  href="https://skillbasedit.com/demo/Girls_Guide">গার্লস গাইড</a></li>-->
                                             <!--<li><a  href="https://skillbasedit.com/demo/BNCC">বিএনসিসি</a></li>-->
-                                            <li><a href="https://skillbasedit.com/demo/Red_Crescent">রেড ক্রিসেন্ট</a>
+                                            <li><a href="{{url('webpages/Red_Crescent')}}">রেড ক্রিসেন্ট</a>
                                             </li>
-                                            <li><a href="https://skillbasedit.com/demo/Study_Tour">শিক্ষা সফর</a></li>
+                                            <li><a href="{{url('webpages/Study_Tour')}}">শিক্ষা সফর</a></li>
                                         </div>
                                         <div class="col-md-6">
-                                            <li><a href="https://skillbasedit.com/demo/Student_Cafinet">স্টুডেন্ট
+                                            <li><a href="{{url('webpages/Student_Cafinet')}}">স্টুডেন্ট
                                                     ক্যাবিনেট</a></li>
-                                            <li><a href="https://skillbasedit.com/demo/Debate">ডিবেটিং ক্লাব</a></li>
-                                            <li><a href="https://skillbasedit.com/demo/Language_Club">ল্যাঙ্গুয়েজ
+                                            <li><a href="{{url('webpages/Debate')}}">ডিবেটিং ক্লাব</a></li>
+                                            <li><a href="{{url('webpages/Language_Club')}}">ল্যাঙ্গুয়েজ
                                                     ক্লাব</a></li>
 
-                                            <li><a href="https://skillbasedit.com/demo/Science_Fair">বিজ্ঞান মেলা</a>
+                                            <li><a href="{{url('webpages/Science_Fair')}}">বিজ্ঞান মেলা</a>
                                             </li>
                                             <!--<li><a  href="https://skillbasedit.com/demo/Computer_Club">কম্পিউটার ক্লাব</a></li>-->
 
@@ -384,13 +384,13 @@
                             <ul class="dropdown-menu pb-3 bg-white" aria-labelledby="navbarDropdownMenuLink">
 
                                 <div class="col-md-12 col-12 dmenu mt-3">
-                                    <li><a href="https://skillbasedit.com/demo/Prospects">প্রসপেক্টাস</a></li>
-                                    <li><a href="https://skillbasedit.com/demo/Admission_Rules">ভর্তির নিয়মাবলী</a>
+                                    <li><a href="{{url('webpages/Prospects')}}">প্রসপেক্টাস</a></li>
+                                    <li><a href="{{url('webpages/Admission_Rules')}}">ভর্তির নিয়মাবলী</a>
                                     </li>
-                                    <li><a href="https://skillbasedit.com/demo/Admission_Question">ভর্তি পরীক্ষার
+                                    <li><a href="{{url('webpages/Admission_Question')}}">ভর্তি পরীক্ষার
                                             সিলেবাস</a></li>
                                     <!--<li><a href="https://skillbasedit.com/demo/Admission_Procedure">ভর্তির পদ্ধতি</a></li>-->
-                                    <li><a href="https://skillbasedit.com/demo/Admission_Result">ভর্তির ফলাফল</a></li>
+                                    <li><a href="{{url('webpages/Admission_Result')}}">ভর্তির ফলাফল</a></li>
 
                                     <!--<li><a href="https://skillbasedit.com/demo/Transfer_Procedure">ট্রান্সফার পদ্ধতি</a></li>-->
                                 </div>
@@ -417,12 +417,12 @@
                             <ul class="dropdown-menu pb-3 bg-white" aria-labelledby="navbarDropdownMenuLink">
 
                                 <div class="col-md-12 col-12 dmenu mt-3">
-                                    <li><a href="https://skillbasedit.com/demo/Exam_rules">পরীক্ষার নিয়মাবলী</a></li>
-                                    <li><a href="https://skillbasedit.com/demo/Exam_routine">পরীক্ষা ও ফলাফলের
+                                    <li><a href="{{url('webpages/Exam_rules')}}">পরীক্ষার নিয়মাবলী</a></li>
+                                    <li><a href="{{url('webpages/Exam_routine')}}">পরীক্ষা ও ফলাফলের
                                             সময়সূচী</a></li>
 
                                     <!--<li><a href="https://skillbasedit.com/demo/Lesson_plan">পাঠ পরিকল্পনা</a></li>-->
-                                    <li><a href="https://skillbasedit.com/demo/Suggestion">সাজেশন্স</a></li>
+                                    <li><a href="{{url('webpages/Suggestion')}}">সাজেশন্স</a></li>
                                 </div>
                             </ul>
                         </li>
@@ -436,7 +436,7 @@
                             <ul class="dropdown-menu pb-3 bg-white" aria-labelledby="navbarDropdownMenuLink">
 
                                 <div class="col-md-12 col-12 dmenu mt-3">
-                                    <li><a href="https://high.alhelalacademy.edu.bd/showResult.php"
+                                    <li><a href="{{url('webpages/showResult')}}"
                                             target="blank">অভ্যন্তরীণ ফলাফল</a></li>
                                     <li><a href="https://eboardresults.com/v2/home" target="blank">পাবলিক পরীক্ষার
                                             ফলাফল</a></li>
@@ -457,9 +457,9 @@
                             <ul class="dropdown-menu pb-3 bg-white" aria-labelledby="navbarDropdownMenuLink"
                                 style="min-width:180px;">
                                 <div class="col-md-12 col-12 dmenu mt-3">
-                                    <li><a href="https://skillbasedit.com/demo/Photo_gallery">ফটো গ্যালারী</a></li>
-                                    <li><a href="https://skillbasedit.com/demo/Video_gallery">ভিডিও গ্যালারী</a></li>
-                                    <li><a href="https://skillbasedit.com/demo/Magazine">ম্যাগাজিন</a></li>
+                                    <li><a href="{{url('webpages/Photo_gallery')}}">ফটো গ্যালারী</a></li>
+                                    <li><a href="{{url('webpages/Video_gallery')}}">ভিডিও গ্যালারী</a></li>
+                                    <li><a href="{{url('webpages/Magazine')}}">ম্যাগাজিন</a></li>
                                 </div>
                             </ul>
                         </li>
