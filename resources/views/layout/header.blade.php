@@ -285,12 +285,12 @@
                                         </a></li>
                                     <li><a href="{{url('/webpages/cate_wise_approved_branch_info')}}">শ্রেণীভিত্তিক অনুমোদিত শাখার তথ্য </a>
                                     </li>
-                                    <li><a href="student_attendance">শিক্ষার্থী উপস্থিতি তথ্য </a></li>
-                                    <li><a href="six_class_student_info">৬ষ্ঠ শ্রেণী শিক্ষার্থী তথ্য</a></li>
-                                    <li><a href="seven_class_student_info">৭ম শ্রেণী শিক্ষার্থী তথ্য</a></li>
-                                    <li><a href="eight_class_student_info">৮ম শ্রেণী শিক্ষার্থী তথ্য</a></li>
-                                    <li><a href="nine_class_student_info">৯ম শ্রেণী শিক্ষার্থী তথ্য</a></li>
-                                    <li><a href="ten_class_student_info">১০ম শ্রেণী শিক্ষার্থী তথ্য</a></li>
+                                    <li><a href="{{url('/webpages/student_attendance')}}">শিক্ষার্থী উপস্থিতি তথ্য </a></li>
+                                    <li><a href="{{url('/webpages/six_class_student_info')}}">৬ষ্ঠ শ্রেণী শিক্ষার্থী তথ্য</a></li>
+                                    <li><a href="{{url('/webpages/seven_class_student_info')}}">৭ম শ্রেণী শিক্ষার্থী তথ্য</a></li>
+                                    <li><a href="{{url('webpages/eight_class_student_info')}}">৮ম শ্রেণী শিক্ষার্থী তথ্য</a></li>
+                                    <li><a href="{{url('webpages/nine_class_student_info')}}">৯ম শ্রেণী শিক্ষার্থী তথ্য</a></li>
+                                    <li><a href="{{url('webpages/ten_class_student_info')}}">১০ম শ্রেণী শিক্ষার্থী তথ্য</a></li>
 
                                 </div>
                             </ul>
@@ -309,18 +309,18 @@
 
                                 <div class="col-md-12 col-12 dmenu mt-3">
 
-                                    <li><a href="https://skillbasedit.com/demo/Holiday_list">ছুটির তালিকা</a></li>
-                                    <li><a href="https://skillbasedit.com/demo/Academic_Calender">একাডেমিক
+                                    <li><a href="{{url('webpages/Holiday_list')}}">ছুটির তালিকা</a></li>
+                                    <li><a href="{{url('webpages/Academic_Calender')}}">একাডেমিক
                                             ক্যালেন্ডার</a></li>
-                                    <li><a href="https://skillbasedit.com/demo/Class_routine">ক্লাস রুটিন</a></li>
-                                    <li><a href="https://skillbasedit.com/demo/Syllabas">পাঠ্যসূচী</a></li>
-                                    <li><a href="https://skillbasedit.com/demo/Rules_regulation">আচরণ বিধি</a></a>
+                                    <li><a href="{{url('webpages/Class_routine')}}">ক্লাস রুটিন</a></li>
+                                    <li><a href="{{url('webpages/Syllabus')}}">পাঠ্যসূচী</a></li>
+                                    <li><a href="{{url('webpages/Rules_regulation')}}">আচরণ বিধি</a></a>
                                     </li>
 
-                                    <li><a href="https://skillbasedit.com/demo/Uniform">ইউনিফর্ম</a></li>
-                                    <li><a href="https://skillbasedit.com/demo/Fees">ফি সমূহ</a></li>
+                                    <li><a href="{{url('webpages/Uniform')}}">ইউনিফর্ম</a></li>
+                                    <li><a href="{{url('webpages/Fees')}}">ফি সমূহ</a></li>
                                     <!--<li><a href="https://skillbasedit.com/demo/Book_list">সিলেবাস </a></li>-->
-                                    <li><a href="https://skillbasedit.com/demo/Online_Classroutine">দৈনিক ডায়েরি</a>
+                                    <li><a href="{{url('webpages/Online_Classroutine')}}">দৈনিক ডায়েরি</a>
                                     </li>
 
                                 </div>
@@ -343,9 +343,9 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <!--<li><a  href="https://skillbasedit.com/demo/Events">ইভেন্টস</a></li>-->
-                                            <li><a href="https://skillbasedit.com/demo/Sports">ক্রীড়া কার্যক্রম</a>
+                                            <li><a href="{{url('webpages/Sports')}}">ক্রীড়া কার্যক্রম</a>
                                             </li>
-                                            <li><a href="https://skillbasedit.com/demo/Cultural_Activities">সাংস্কৃতিক
+                                            <li><a href="{{url('webpages/Cultural_Activities')}}">সাংস্কৃতিক
                                                     কার্যক্রম</a></li>
                                             <li><a href="https://skillbasedit.com/demo/Scouts">স্কাউটস</a></li>
                                             <!--<li><a  href="https://skillbasedit.com/demo/Girls_Guide">গার্লস গাইড</a></li>-->
