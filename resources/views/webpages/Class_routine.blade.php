@@ -32,11 +32,11 @@
             
                             <tr style="font-size: 12px;">
                             <td>1</td>
-                            <td><a href="https://skillbasedit.com/demo/public/otherimage/110822_09_05_28.jpg" style="text-decoration: none;color: black">2022-08-01</a></td>
-                            <td><a href="https://skillbasedit.com/demo/public/otherimage/110822_09_05_28.jpg" style="text-decoration: none;color: black">Class Routine</a></td>
+                            <td><a href="#" style="text-decoration: none;color: black">2022-08-01</a></td>
+                            <td><a href="#" style="text-decoration: none;color: black">Class Routine</a></td>
                             <td>
-                                                <a  href="https://skillbasedit.com/demo/public/otherimage/110822_09_05_28.jpg" class="btn btn-sm btn-danger" >
-                                <img src="https://skillbasedit.com/demo/public/frontend/img/pdf_icon.png" class="img-fluid"></a>
+                                                <a  href="#" class="btn btn-sm btn-danger" >
+                                <img src="{{url('images/pdf_icon.png')}}" class="img-fluid"></a>
                                                 </td>
                             </tr>
             
@@ -46,11 +46,11 @@
             
                             <tr style="font-size: 12px;">
                             <td>2</td>
-                            <td><a href="https://skillbasedit.com/demo/public/otherimage/110822_09_42_27.jpg" style="text-decoration: none;color: black">2022-08-11</a></td>
-                            <td><a href="https://skillbasedit.com/demo/public/otherimage/110822_09_42_27.jpg" style="text-decoration: none;color: black">Class Routine</a></td>
+                            <td><a href="#" style="text-decoration: none;color: black">2022-08-11</a></td>
+                            <td><a href="#" style="text-decoration: none;color: black">Class Routine</a></td>
                             <td>
-                                                <a  href="https://skillbasedit.com/demo/public/otherimage/110822_09_42_27.jpg" class="btn btn-sm btn-danger" >
-                                <img src="https://skillbasedit.com/demo/public/frontend/img/pdf_icon.png" class="img-fluid"></a>
+                                                <a  href="#" class="btn btn-sm btn-danger" >
+                                <img src="{{url('images/pdf_icon.png')}}" class="img-fluid"></a>
                                                 </td>
                             </tr>
             

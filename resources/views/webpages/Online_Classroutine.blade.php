@@ -31,14 +31,14 @@
 
                                     <tr style="font-size: 12px;">
                                         <td>1</td>
-                                        <td><a href="https://skillbasedit.com/demo/public/otherimage/110822_09_04_29.jpg"
+                                        <td><a href="#"
                                                 style="text-decoration: none;color: black">Online Class Routine</a></td>
-                                        <td><a href="https://skillbasedit.com/demo/public/otherimage/110822_09_04_29.jpg"
+                                        <td><a href="#"
                                                 style="text-decoration: none;color: black">2022-08-03</a></td>
                                         <td>
-                                            <a href="https://skillbasedit.com/demo/public/otherimage/110822_09_04_29.jpg"
+                                            <a href="#"
                                                 class="btn btn-sm btn-danger">
-                                                <img src="https://skillbasedit.com/demo/public/frontend/img/pdf_icon.png"
+                                                <img src="{{url('images/pdf_icon.png')}}"
                                                     class="img-fluid"></a>
                                         </td>
                                     </tr>

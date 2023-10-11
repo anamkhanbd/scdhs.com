@@ -31,14 +31,14 @@
 
                                     <tr style="font-size: 12px;">
                                         <td>1</td>
-                                        <td><a href="https://skillbasedit.com/demo/public/otherimage/300823_14_09_22.pdf"
+                                        <td><a href="#"
                                                 style="text-decoration: none;color: black">2023-08-30</a></td>
-                                        <td><a href="https://skillbasedit.com/demo/public/otherimage/300823_14_09_22.pdf"
+                                        <td><a href="#"
                                                 style="text-decoration: none;color: black">nine</a></td>
                                         <td>
-                                            <a href="https://skillbasedit.com/demo/public/otherimage/300823_14_09_22.pdf"
+                                            <a href="#"
                                                 class="btn btn-sm btn-danger">
-                                                <img src="https://skillbasedit.com/demo/public/frontend/img/pdf_icon.png"
+                                                <img src="{{url('images/pdf_icon.png')}}"
                                                     class="img-fluid"></a>
                                         </td>
                                     </tr>
@@ -56,8 +56,7 @@
                                         <td>
                                             <a href="#"
                                                 class="btn btn-sm btn-danger">
-                                                <img src="{{url('images/pdf_icon.png')}}"
-                                                    class="img-fluid"></a>
+                                                <img src="{{url('images/pdf_icon.png')}}"#id"></a>
                                         </td>
                                     </tr>
 

@@ -2,7 +2,7 @@
         <div class="container">
 
             <div class="col-sm-12 col-12 bg-white p-0 pt-5">
-                <img src="images/footer_top_bg.png" class="img-fluid w-100">
+                <img src="{{url('images/footerbg.png')}}" class="img-fluid w-100">
             </div>
 
 

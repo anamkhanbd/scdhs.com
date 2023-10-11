@@ -58,7 +58,7 @@
                     <div class="col-sm-3 col-12 text-sm-left text-center pt-2   d-none d-sm-block">
 
                         {{--chnage 01--}}
-                        <label><a href="https://skillbasedit.com/demo/time_line" class="surborno" target="blank"> সুবর্ণ
+                        <label><a href="#" class="surborno" target="blank"> সুবর্ণ
                                 জয়ন্তী ও বঙ্গবন্ধু কর্ণার </a></label>
                     </div>
                     <div class="col-sm-9 col-12 text-sm-right text-center">
@@ -186,7 +186,7 @@
                                                     চার্টার</a></li>
                                             <li><a href="{{url('/webpages/teaching_permission')}}">পাঠদানের
                                                     অনুমতি ও স্বীকৃতি </a></li>
-                                            <li><a href="{{url('/webpages/mpo_info')}}">এমপিও/জাতীয়করণ তথ্য
+                                            <li><a href="{{url('webpages/mpo_info')}}">এমপিও/জাতীয়করণ তথ্য
                                                 </a></li>
 
                                         </div>

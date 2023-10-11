@@ -28,7 +28,7 @@ Route::get('webpages/Mission_vission', [PageController::class, 'missionVission']
 Route::get('webpages/history', [PageController::class, 'history']);
 Route::get('webpages/Citizen_charter', [PageController::class, 'citizenCharter']);
 Route::get('webpages/teaching_permission', [PageController::class, 'teacherPermission']);
-Route::get('webpages/mpo_info', [PageController::class, 'mopInfo']);
+Route::get('webpages/mpo_info', [PageController::class, 'mpoInfo']);
 Route::get('webpages/Infrastructure', [PageController::class, 'Infrastructure']);
 Route::get('webpages/Yearly_working_plan', [PageController::class, 'yearlyPlan']);
 Route::get('webpages/head_intro', [PageController::class, 'headMaster']);

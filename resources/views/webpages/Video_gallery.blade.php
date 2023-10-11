@@ -116,7 +116,7 @@
                         <li class="list-group-item p-0 pt-2" id="padd" style="overflow: hidden">
                             <center>
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1093.1045997695203!2d91.38646537546839!3d22.848701614936264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3753451f0b8e519f%3A0x3a7c5be17f194cb4!2sAl%20Helal%20Academy%2C%20Sonagazi%20-%20Olamabazar%20-%20Chardarbeshpur%20-%20Companiganj%20Rd%2C%20Sonagazi%20Municipality!5e0!3m2!1sen!2sbd!4v1660653244311!5m2!1sen!2sbd"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7191.681542953389!2d89.50101939643586!3d25.676572518497295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e2d3bd83bafbf7%3A0xfdbf331a35340d23!2z4Ka24Ka_4Kas4Kam4KeH4Kas4Kaa4KawIOCmpuCnjeCmrOCmvy3gpq7gp4Lgppbgp4Ag4KaJ4Kaa4KeN4KaaIOCmrOCmv-CmpuCnjeCmr-CmvuCmsuCnnw!5e0!3m2!1sen!2sbd!4v1697005450646!5m2!1sen!2sbd"
                                     width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 <br>

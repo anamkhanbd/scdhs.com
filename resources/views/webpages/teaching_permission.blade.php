@@ -52,6 +52,6 @@
             
             
             <div class="col-12  d-lg-none d-xl-none d-md-none btn btn-success "  >
-                    <a href="https://skillbasedit.com/demo/time_line"style="color:#fff; font-size:24px;" target="blank"> সুবর্ণ জয়ন্তী ও  বঙ্গবন্ধু কর্ণার   </a>
+                    <a href="#"style="color:#fff; font-size:24px;" target="blank"> সুবর্ণ জয়ন্তী ও  বঙ্গবন্ধু কর্ণার   </a>
             </div>
 @endsection
