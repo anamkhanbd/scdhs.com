@@ -11,7 +11,10 @@ class PageController extends Controller
         return view ('index');
     }
 
-
+            public function mujib()
+                {
+                    return view ('webpages/mujib/mujib');
+                }
     //TOp manus File path starding.......... 
   
     public function downloadFiles()

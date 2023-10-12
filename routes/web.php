@@ -14,6 +14,7 @@ use App\Http\Controllers\PageController;
 |
 */
 
+Route::get('webpages/mujib/mujib', [PageController::class, 'mujib']);
 Route::get('/', [PageController::class, 'home']);
 Route::get('pages/downloadFiles', [PageController::class, 'downloadFiles']);
 Route::get('pages/admission-form', [PageController::class, 'admission']);
