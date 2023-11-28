@@ -63,7 +63,7 @@
                     </div>
                     <div class="col-sm-9 col-12 text-sm-right text-center">
 
-
+ 
                         <!--Not Copy-->
 
                         <li><a href="{{url('/pages/downloadFiles')}}" target="_blank">ডাউনলোড ফাইল</a></li>

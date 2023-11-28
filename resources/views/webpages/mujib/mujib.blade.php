@@ -878,7 +878,7 @@ a {
     </style>
 
 
-</head>
+</head> 
 <body>
 
     <div>
